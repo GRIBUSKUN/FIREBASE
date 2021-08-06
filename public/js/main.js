@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    crear_reloj(30);
+    console.log('script loaded');
 });
 function crear_reloj(cuanto) {
     for (let index = 0; index < cuanto ; index++) {
